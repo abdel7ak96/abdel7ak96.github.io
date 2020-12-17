@@ -1132,7 +1132,7 @@ a.navbar-brand {
 
 .header_hero_image img {
   margin-top: 50px;
-  width: 100%;
+  margin-left: 60px;
 }
 
 /*==================
@@ -1150,7 +1150,8 @@ a.navbar-brand {
 }
 
 .about_image img {
-  width: 100%;
+  position: relative;
+  left: 30px;
 }
 
 .about_image .about_shape {
@@ -1669,11 +1670,11 @@ a.navbar-brand {
 
 /* Desktop view */
 @media only screen and (min-width: 576px) {
-  .outlined-square {
+  .outlined_square_shape {
     left: 10vw;
   }
 
-  .dots-pattern {
+  .dots_pattern_shape {
     right: 10vw;
   }
 }
