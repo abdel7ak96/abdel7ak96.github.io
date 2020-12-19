@@ -2,28 +2,44 @@
 <html class="no-js" lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M56EGQ5EPM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M56EGQ5EPM');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
     <meta charset="utf-8">
     <title>Abdelhak RAHMOUNI | Software Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
-    <!--TODO : Google traffic tracking tags-->
-    
+
     <!--====== OPENGRAPH TAGS START ======-->
     <!-- title -->
     <title>Reading Meter | Estimate reading time</title>
-    <meta property="og:title"  content="Abdelhak Rahmouni | Software Developer" />
+    <meta property="og:title" content="Abdelhak Rahmouni | Software Developer" />
     <meta name="twitter:title" content="Abdelhak Rahmouni | Software Developer" />
     <!-- url -->
-    <meta property="og:url"  content="https://noisy96.github.io/" />
+    <meta property="og:url" content="https://noisy96.github.io/" />
     <meta name="twitter:url" content="https://noisy96.github.io/" />
-    <!-- TODO : description -->
-    <meta name="description" content="" />
-    <meta property="og:description"  content="" />
-    <meta name="twitter:description" content="" />
-    <!-- TODO : image -->
-    <meta property="og:image"  content="" />
-    <meta name="twitter:image" content="" />
-    <!-- Type -->
+    <!-- description -->
+    <meta name="description" content="A Computer Science Master's degree graduate & an avid reader with an
+    insatiable curiosity." />
+    <meta property="og:description" content="A Computer Science Master's degree graduate & an avid reader with an
+    insatiable curiosity." />
+    <meta name="twitter:description" content="A Computer Science Master's degree graduate & an avid reader with an
+    insatiable curiosity." />
+    <!-- cover image -->
+    <meta property="og:image" content="assets/images/og_cover.jpg" />
+    <meta name="twitter:image" content="assets/images/og_cover.jpg" />
+    <!-- type -->
     <meta property="og:type" content="webapp" />
     <meta name=”twitter:card” content=”webapp” />
     <!--====== OPENGRAPH TAGS END ======-->
@@ -136,9 +152,10 @@
                             <h5 class="header_sub_title" data-aos="fade-up">Hello</h5>
                             <h2 class="header_title" data-aos="fade-up" data-aos-delay="400">I'm Abdelhak RAHMOUNI</h2>
                             <span data-aos="fade-up" data-aos-delay="800">Software Developer | Graphic Designer</span>
-                            <p data-aos="fade-up" data-aos-delay="1100">Lorem ipsum dolor sit amet, consetetur
-                                sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                aliquyam.</p>
+                            <!-- TODO : come up with something better -->
+                            <p data-aos="fade-up" data-aos-delay="1100">A Computer Science Master's degree graduate & an
+                                avid reader with an
+                                insatiable curiosity.</p>
                             <a href="#" rel="nofollow" class="main-btn" data-aos="fade-up" data-aos-delay="1400"
                                 data-aos-anchor-placement="top">Resume</a>
                         </div>
@@ -169,17 +186,16 @@
                     <div class="about_content" data-aos="fade-left">
                         <div class="section_title">
                             <h5 class="sub_title">About</h5>
-                            <h3 class="main_title">Why You Hire Me?</h3>
+                            <h3 class="main_title">Why Hire Me?</h3>
                             <ul class="line">
                                 <li></li>
                                 <li></li>
                                 <li></li>
                             </ul>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</p>
-
+                        <!--TODO : Come up with something better -->
+                        <p>I'm a skilled individual with a lot of growth potential, I have great respect for various disciplines and 
+                            a healthy obsession with mastery.</p>
                         <div class="about_skills">
                             <div class="skill_item">
                                 <div class="skill_header">
@@ -370,6 +386,7 @@
                                 <span>Public Speaking</span>
                                 <span>Teaching</span>
                                 <span>Communication</span>
+                                <span>Adaptibility</span>
                             </div>
                         </div>
                         <div class="divider_line"></div>
@@ -525,6 +542,7 @@
         <div class="dots_pattern_shape"></div>
         <!--====== BACKGROUND SHAPES =======-->
 
+        <!-- TODO : Resize the projects card and increase description text font size -->
         <div class="container">
             <div class="project_cards_container">
                 <div class="project_card" data-aos="fade-right">
@@ -666,7 +684,7 @@
                     </div>
                 </div>
                 <div class="collapse_div" id="tech-books-row-div">
-                    <button type="button" class="circle_button collapse_button" data-id="tech-books-row">
+                    <button type="button" class="circle_button collapse_button" data-target-id="tech-books-row">
                         <i class="lni lni-chevron-down"></i>
                     </button>
                 </div>
@@ -850,7 +868,7 @@
                 </div>
 
                 <div class="collapse_div" id="perso-books-row-div">
-                    <button type="button" class="circle_button collapse_button" data-id="perso-books-row">
+                    <button type="button" class="circle_button collapse_button" data-target-id="perso-books-row">
                         <i class="lni lni-chevron-down"></i>
                     </button>
                 </div>

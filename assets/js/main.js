@@ -97,24 +97,24 @@ $(function () {
                 }]
     });
 
-    // TODO : this looks messy, clean it!
-    // Tip : get rid of the vanilla JS and strictly use JQuery selections
     // READING SECTION COLLAPSE EFFECT
     $('.collapse_button').click(function() {
-        let books_row = $("#"+$(this).data("id"));
-        let iconChildElement = this.firstElementChild;
-        let navParentElement = $("#"+$(this).data("id")+"-div");
-        if(books_row.css("height") == "250px") {
-            books_row.css('height', 'inherit');
-            let height = books_row.height();
-            books_row.css('height', '250px');
-            books_row.animate({height: height}, "slow");
-            navParentElement.animate({bottom: 0});
-            iconChildElement.className = "lni lni-chevron-up"
-        } else {
-            books_row.animate({height: '250px'}, "slow");
-            iconChildElement.className = "lni lni-chevron-down"
-            navParentElement.animate({bottom: 80});
+        let targetDiv = $("#"+$(this).data("target-id"));
+        let buttonIcon = $(this).children("i.lni");
+        let gradientDiv = $(this).parent();
+
+        if(targetDiv.css("height") == "250px") {
+            targetDiv.css('height', 'initial');
+            let height = targetDiv.css("height");
+            targetDiv.css('height', '250px');
+            targetDiv.animate({height: height}, 'slow');
+            gradientDiv.animate({bottom: 0});
+            buttonIcon.addClass('lni-chevron-up');
+        }
+        else {
+            targetDiv.animate({height: "250px"}, "slow");
+            buttonIcon.removeClass('lni-chevron-up');
+            gradientDiv.animate({bottom: 80});
         }
     });
 

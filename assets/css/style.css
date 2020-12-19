@@ -132,6 +132,10 @@ p {
   height: 100%;
 }
 
+.gray-bg {
+ background-color: #f9f9f9; 
+}
+
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -1133,6 +1137,7 @@ a.navbar-brand {
 .header_hero_image img {
   margin-top: 50px;
   margin-left: 60px;
+  width: 70%;
 }
 
 /*==================
@@ -1145,13 +1150,11 @@ a.navbar-brand {
 }
 
 .about_image {
-  margin-top: 50px;
   position: relative;
 }
 
 .about_image img {
-  position: relative;
-  left: 30px;
+  width: 395px;
 }
 
 .about_image .about_shape {
@@ -1163,6 +1166,15 @@ a.navbar-brand {
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .about_image {
+    display: none;
+  }
+  .about_shape {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
