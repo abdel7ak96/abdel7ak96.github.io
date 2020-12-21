@@ -70,8 +70,6 @@ $(function () {
     // PROJECTS SECTION CARROUSAL
     $('.project_cards_container').slick({
         slidesToShow: 3,
-        prevArrow: '<button class="circle-button carousel-left-button"><i class="lni lni-chevron-left"></i></button>',
-        nextArrow: '<button class="circle-button carousel-right-button"><i class="lni lni-chevron-right"></i></button>',
         arrows: false,
         dots: true,
         responsive: [{
