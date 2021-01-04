@@ -1,6 +1,6 @@
 # Portfolio website [🔗](https://noisy96.github.io)
 
-<p align="center"><img src="assets/images/og_cover.jpg" width="500px"></p>
+<p align="center"><img src="images/device-preview.png" width="500px"></p>
 
 ## Description
 A website that groups links to my profiles... basically! I mean I got too many.
