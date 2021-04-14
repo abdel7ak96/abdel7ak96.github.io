@@ -1132,6 +1132,11 @@ a.navbar-brand {
 
 .header_hero_content .main-btn {
   margin-top: 30px;
+  padding: 0px 25px;
+}
+
+.header_hero_content .main-btn i {
+  margin-right: 10px;
 }
 
 .header_hero_image img {
