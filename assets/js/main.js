@@ -1,7 +1,7 @@
 $(function () {
     "use strict";
     // PRELOADER
-    $(window).on('load', function (event) {
+    $(".header_hero_image").imagesLoaded(function () {
         $('.preloader').delay(500).fadeOut(500);
     });
 
