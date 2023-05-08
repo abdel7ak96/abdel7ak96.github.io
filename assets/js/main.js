@@ -71,6 +71,8 @@ $(function () {
     $('.project_cards_container').slick({
         slidesToShow: 3,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
         dots: true,
         responsive: [{
                     breakpoint: 1200,
