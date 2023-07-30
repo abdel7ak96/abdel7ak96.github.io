@@ -1394,7 +1394,6 @@ a.navbar-brand {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin: auto;
   padding: 10px 0px;
 }
 
@@ -1633,7 +1632,7 @@ a.navbar-brand {
   margin-top: 3px;
 }
 
-.single_experience:hover .experience_content ul {
+.single_experience:hover .experience_content * {
   color: #fff;
 }
 
@@ -1646,6 +1645,10 @@ a.navbar-brand {
 .experience_content a {
   font-weight: bold;
   color: #007bff;
+}
+
+.experience_content h6 {
+  margin: 10px 0px;
 }
 
 .single_experience:hover .experience_content {
